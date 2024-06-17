@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Joe's Word Game</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Joe's Word Game</h1>
+        <div>
+            <span class="start-word"></span> ->
+            <span class="end-word"></span>
+        </div>
+        <div>
+            <ul id="word-list"></ul>
+            <input class="input" type="text"> 
+            <span class="glyphicon glyphicon-ok checkmark hidden" aria-hidden="true"></span>
+        </div>
+        <span class="glyphicon glyphicon-eye-open hint-icon" aria-hidden="true"></span>
+        <a class="show-hints" href="#">Toggle Hints</a>
+        <p id="hint-list" class="hidden"></p>
+        <p class="message"></p>
+        <a id="submit" href="#" class="btn btn-default">Submit</a>
+         <a id="start" href="#" class="btn btn-default hidden">Start</a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
